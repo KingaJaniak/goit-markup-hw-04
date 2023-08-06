@@ -22,6 +22,16 @@ h3{
     display: flex;
     margin-top: 0;
 }
+h4{
+    display: flex;
+    color: var(--background);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
 ul{
     list-style-type: none;
     margin-block-start: 0;
@@ -71,6 +81,9 @@ margin: 0;
 flex-shrink: 0;
 display: flex;
 padding:188px 0;
+background-image: url(/images/people-office-hero.jpg);
+max-width:1440px;
+background-size:auto;
 }
 .wrapper-value{
     display: flex;
@@ -80,6 +93,21 @@ padding:188px 0;
     gap: 24px;
     column-gap: 24px;
 }
+.wrapper-value-icons{
+    width: 264px;
+height: 112px;
+flex-shrink: 0;
+border-radius: 4px;
+background: var(--cloud, #F4F4FD);
+padding: 24px 100px;
+}
+
+.wrapper-icon{
+    width: 64px;
+height: 64px;
+flex-shrink: 0;
+}
+
 .wrapper-volue-list{
     width:264px;
 }
@@ -101,16 +129,31 @@ margin-top:0;
     font-style:normal;
     text-decoration:none;
 }
+.wrapper-customers-list{
+    display: inline-flex;
+align-items: flex-start;
+gap: 24px;
+}
+.wrapper-icon-customer{width: 104px;
+    height: 56px;
+    flex-shrink: 0;}
 
+.border-customer-icon{width: 168px;
+    height: 88px;
+    flex-shrink: 0;
+    border-radius: 4px;
+border: 1px solid #8E8F99;
+padding:16px 32px;
+}   
 .page-footer{
     color:var(--light-mode-color);
     background-color:var(--block-background-color);
-    flex-shrink: 0;
 
 }
 .footer-wrapper{
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap : wrap;
+    flex-direction: row;
     width: 264px;
 }
 .wrapper-footer-logo{
@@ -251,8 +294,31 @@ justify-content: center;
 align-items: center;
 gap: 24px;
 border-radius: 0px 0px 4px 4px;
-
 }
+.wrapper-icon-social-box{
+    display: flex;
+justify-content: left;
+align-items: center;
+gap: 24px;
+color: var(--background);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px;}
+
+.wrapper-icon-social{
+    width: 40px;
+height: 40px;
+flex-shrink: 0;}
+
+.wrapper-icon-social:hover,
+.wrapper-icon-social:active{
+    background-color: #31d0aa;
+}
+
+
 .wrapper-portfolio-list{
 display: flex;
 flex-direction: row;
@@ -336,6 +402,10 @@ display: flex;
 }
 .space-footer{
     padding: 100px 0;
+}
+
+.wrapper-social-footer{
+
 }
 .wrapper-header-primary{
     margin-bottom: 72px;    
