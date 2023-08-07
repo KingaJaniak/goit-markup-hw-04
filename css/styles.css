@@ -42,7 +42,7 @@ ul{
 p{
     display: flex;
     gap: 32px;
-    margin-top: 0;
+    margin: 0;
 }
 img{
     display: block;}
@@ -115,6 +115,8 @@ padding: 24px 100px;
 height: 64px;
 flex-shrink: 0;
 }
+.wrapper-value-title{
+padding-top:8px;}
 
 .wrapper-bottom-p{
     margin-bottom: 8px;
@@ -310,7 +312,8 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px;
-letter-spacing: 0.32px;}
+letter-spacing: 0.32px;
+padding-top:8px;}
 
 .wrapper-icon-social{
     width: 16px;
