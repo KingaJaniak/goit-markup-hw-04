@@ -359,7 +359,7 @@ align-items: center;
 .wrapper-background-icon:hover,
 .wrapper-background-icon:active{
     cursor: pointer;
-    background-color: #31d0aa;
+    background-color: var(--pressed-state-color);
 }
 
 .wrapper-background-icon-footer:hover,
